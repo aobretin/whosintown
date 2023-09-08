@@ -10,6 +10,8 @@ export default defineConfig({
       components: '/src/components',
       query: '/src/query',
       lib: '/src/lib',
+      models: '/src/models',
+      store: '/src/store',
     }
   }
 })
