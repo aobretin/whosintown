@@ -4,12 +4,14 @@
   import SearchInput from "./SearchInput.svelte";
   import { getArtistWithEvents } from "query/artist/mutations";
   import { ProgressBar } from "@skeletonlabs/skeleton";
+  import { selectedEvent } from "store/global";
 
   const fetchArtistWithEvents = getArtistWithEvents();
   const { mutate: callArtistWithEvents } = $fetchArtistWithEvents;
 
   const handleArtistSearch = (artistName: string) => {
     callArtistWithEvents(artistName);
+    selectedEvent.set(null);
   };
 
   $: isFetching = $fetchArtistWithEvents.status === "loading";

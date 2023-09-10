@@ -37,15 +37,15 @@
             value={favorite.id}
           >
             <div class="flex justify-between items-center">
-              <span class="flex">
+              <a href={favorite.url} target="_blank" class="flex">
                 <iconify-icon
                   class="text-yellow-300 text-[24px] mr-[5px]"
                   icon="ic:baseline-star"
                 />
-                <a href={favorite.url} target="_blank">{favorite.title}</a>
+                <span>{favorite.title}</span>
                 <span class="mx-2">-</span>
                 {formatDate(favorite.datetime)}
-              </span>
+              </a>
 
               <button
                 data-testid={`remove-favorite-${favorite.id}-btn`}

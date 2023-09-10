@@ -7,7 +7,7 @@
 
 <div class="flex flex-col h-full">
   <Nav />
-  <div class="flex p-4 gap-4 h-full">
+  <div class="flex lg:flex-row flex-col p-4 gap-4 h-full">
     <SearchCard />
     <EventCard />
     <FavoritesCard />

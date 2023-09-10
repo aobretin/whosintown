@@ -112,15 +112,17 @@
 
   <svelte:fragment slot="card-actions">
     {#if currentEvent}
-      {#if isAddedToFavorites}
-        <button on:click={onRemoveFromFavorites} class="btn variant-filled"
-          >Remove from favorites</button
-        >
-      {:else}
-        <button on:click={onAddToFavorites} class="btn variant-filled"
-          >Add to favorites</button
-        >
-      {/if}
+      <div class="flex justify-center w-full">
+        {#if isAddedToFavorites}
+          <button on:click={onRemoveFromFavorites} class="btn variant-filled"
+            >Remove from favorites</button
+          >
+        {:else}
+          <button on:click={onAddToFavorites} class="btn variant-filled"
+            >Add to favorites</button
+          >
+        {/if}
+      </div>
     {/if}
   </svelte:fragment>
 </Card>
