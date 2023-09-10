@@ -2,7 +2,7 @@
 Simple app to see artists and events.
 
 # Disclaimer
-This is the first time I have written an app in Svelte (other than a little ToDo app a year ago), so I hope you like it as my daily driver is React :).
+This is the first time I have written an app in Svelte (other than a little ToDo app a year ago), so I hope you like it as my daily driver is React :). P.S seems that "metalica" or "skrillex" have events.
 
 
 # Setup
