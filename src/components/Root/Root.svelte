@@ -1,8 +1,8 @@
 <script lang="ts">
-  import EventCard from 'components/EventCard/EventCard.svelte';
-  import FavoritesCard from 'components/FavoritesCard/FavoritesCard.svelte';
-  import Nav from 'components/layout/Nav.svelte';
-  import SearchCard from 'components/SearchCard/SearchCard.svelte';
+  import EventCard from "components/EventCard/EventCard.svelte";
+  import FavoritesCard from "components/FavoritesCard/FavoritesCard.svelte";
+  import Nav from "components/layout/Nav.svelte";
+  import SearchCard from "components/SearchCard/SearchCard.svelte";
 </script>
 
 <div class="flex flex-col h-full">

@@ -8,6 +8,10 @@ export interface Artist {
   mbid: string;
   tracker_count: number;
   upcoming_event_count: number;
+  links: {
+    type: string;
+    url: string;
+  }[]
 }
 
 export interface VenueInfo {
@@ -17,6 +21,8 @@ export interface VenueInfo {
   city: string;
   region: string;
   country: string;
+  location: string;
+  street_address: string;
 }
 
 export interface OfferInfo {
@@ -35,6 +41,7 @@ export interface EventInfo {
   venue: VenueInfo;
   offers: OfferInfo[];
   lineup: string[];
+  title: string;
 }
 
 export interface SelectedArtist {
