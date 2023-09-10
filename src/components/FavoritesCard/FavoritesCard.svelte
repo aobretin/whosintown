@@ -48,6 +48,7 @@
               </span>
 
               <button
+                data-testid={`remove-favorite-${favorite.id}-btn`}
                 on:click={() =>
                   handleRemoveFromFavorites(
                     favorites,

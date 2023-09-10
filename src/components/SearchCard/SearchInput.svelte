@@ -7,8 +7,9 @@
   $: disabled = !searchValue.length || isLoading;
 </script>
 
-<div class="flex">
+<div class="flex" data-testid="search-input-wrapper">
   <input
+    data-testid="search-input"
     class="input p-3 rounded-r-none text-white"
     type="text"
     name="autocomplete-search"
@@ -23,6 +24,7 @@
     }}
   />
   <button
+    data-testid="search-input-btn"
     class="btn bg-gradient-to-br variant-gradient-secondary-tertiary rounded-l-none"
     on:click={() => onArtistSearch(searchValue)}
     {disabled}>Search</button

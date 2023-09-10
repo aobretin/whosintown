@@ -11,7 +11,7 @@ export interface Artist {
   links: {
     type: string;
     url: string;
-  }[]
+  }[];
 }
 
 export interface VenueInfo {
