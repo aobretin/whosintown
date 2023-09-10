@@ -2,7 +2,7 @@
 Simple app to see artists and events.
 
 # Disclaimer
-This is the first time writting an app in Svelte (other than a little ToDo a year ago), so I hope you like it :)
+This is the first time I have written an app in Svelte (other than a little ToDo app a year ago), so I hope you like it as my daily driver is React :).
 
 
 # Setup
