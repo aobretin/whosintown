@@ -48,7 +48,7 @@
         <svelte:fragment>No event selected yet</svelte:fragment>
       </Empty>
     {:else}
-      <div class="flex flex-col gap-8">
+      <div class="flex flex-col gap-8 overflow-auto h-[410px]">
         <div>
           <SectionTitle>Event info</SectionTitle>
           <div>
